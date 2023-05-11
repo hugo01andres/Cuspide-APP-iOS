@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A19AC0A29F744D600EDBEDA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19AC0929F744D600EDBEDA /* HomeView.swift */; };
+		3A2EB30429F34FA1009A1D29 /* CuspideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB30329F34FA1009A1D29 /* CuspideApp.swift */; };
+		3A2EB30629F34FA1009A1D29 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB30529F34FA1009A1D29 /* AuthenticationView.swift */; };
+		3A2EB30829F34FA2009A1D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2EB30729F34FA2009A1D29 /* Assets.xcassets */; };
+		3A2EB30B29F34FA2009A1D29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2EB30A29F34FA2009A1D29 /* Preview Assets.xcassets */; };
+		3A2EB31529F34FA2009A1D29 /* CuspideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB31429F34FA2009A1D29 /* CuspideTests.swift */; };
+		3A2EB31F29F34FA2009A1D29 /* CuspideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB31E29F34FA2009A1D29 /* CuspideUITests.swift */; };
+		3A2EB32129F34FA2009A1D29 /* CuspideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB32029F34FA2009A1D29 /* CuspideUITestsLaunchTests.swift */; };
+		3A2EB33029F3591B009A1D29 /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB32F29F3591B009A1D29 /* RegisterEmailView.swift */; };
+		3A2EB33229F3598B009A1D29 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB33129F3598B009A1D29 /* DismissView.swift */; };
+		3A2EB33629F35D2B009A1D29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2EB33529F35D2B009A1D29 /* GoogleService-Info.plist */; };
+		3A2EB33929F35D83009A1D29 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3A2EB33829F35D83009A1D29 /* FirebaseAuth */; };
+		3A2EB33C29F35F98009A1D29 /* AuthenticationFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB33B29F35F98009A1D29 /* AuthenticationFirebaseDatasource.swift */; };
+		3A2EB33E29F36117009A1D29 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB33D29F36117009A1D29 /* AuthenticationRepository.swift */; };
+		3A2EB34029F361E8009A1D29 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB33F29F361E8009A1D29 /* AuthenticationViewModel.swift */; };
+		3A2EB34229F36E8F009A1D29 /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB34129F36E8F009A1D29 /* LoginEmailView.swift */; };
+		3A2EB34429F37033009A1D29 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EB34329F37033009A1D29 /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2EB31129F34FA2009A1D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2EB2F829F34FA1009A1D29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2EB2FF29F34FA1009A1D29;
+			remoteInfo = Cuspide;
+		};
+		3A2EB31B29F34FA2009A1D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2EB2F829F34FA1009A1D29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2EB2FF29F34FA1009A1D29;
+			remoteInfo = Cuspide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A19AC0929F744D600EDBEDA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3A2EB30029F34FA1009A1D29 /* Cuspide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuspide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2EB30329F34FA1009A1D29 /* CuspideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuspideApp.swift; sourceTree = "<group>"; };
+		3A2EB30529F34FA1009A1D29 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		3A2EB30729F34FA2009A1D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2EB30A29F34FA2009A1D29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A2EB31029F34FA2009A1D29 /* CuspideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuspideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2EB31429F34FA2009A1D29 /* CuspideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuspideTests.swift; sourceTree = "<group>"; };
+		3A2EB31A29F34FA2009A1D29 /* CuspideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuspideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2EB31E29F34FA2009A1D29 /* CuspideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuspideUITests.swift; sourceTree = "<group>"; };
+		3A2EB32029F34FA2009A1D29 /* CuspideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuspideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A2EB32F29F3591B009A1D29 /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
+		3A2EB33129F3598B009A1D29 /* DismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
+		3A2EB33529F35D2B009A1D29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A2EB33B29F35F98009A1D29 /* AuthenticationFirebaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseDatasource.swift; sourceTree = "<group>"; };
+		3A2EB33D29F36117009A1D29 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		3A2EB33F29F361E8009A1D29 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		3A2EB34129F36E8F009A1D29 /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
+		3A2EB34329F37033009A1D29 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2EB2FD29F34FA1009A1D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2EB33929F35D83009A1D29 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2EB30D29F34FA2009A1D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2EB31729F34FA2009A1D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2EB2F729F34FA1009A1D29 = {
+			isa = PBXGroup;
+			children = (
+				3A2EB30229F34FA1009A1D29 /* Cuspide */,
+				3A2EB31329F34FA2009A1D29 /* CuspideTests */,
+				3A2EB31D29F34FA2009A1D29 /* CuspideUITests */,
+				3A2EB30129F34FA1009A1D29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2EB30129F34FA1009A1D29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2EB30029F34FA1009A1D29 /* Cuspide.app */,
+				3A2EB31029F34FA2009A1D29 /* CuspideTests.xctest */,
+				3A2EB31A29F34FA2009A1D29 /* CuspideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2EB30229F34FA1009A1D29 /* Cuspide */ = {
+			isa = PBXGroup;
+			children = (
+				3A2EB33529F35D2B009A1D29 /* GoogleService-Info.plist */,
+				3A2EB30329F34FA1009A1D29 /* CuspideApp.swift */,
+				3A2EB33A29F35F2D009A1D29 /* LoginAndRegister */,
+				3A2EB30729F34FA2009A1D29 /* Assets.xcassets */,
+				3A2EB30929F34FA2009A1D29 /* Preview Content */,
+				3A2EB33129F3598B009A1D29 /* DismissView.swift */,
+				3A19AC0929F744D600EDBEDA /* HomeView.swift */,
+				3A2EB33B29F35F98009A1D29 /* AuthenticationFirebaseDatasource.swift */,
+				3A2EB33D29F36117009A1D29 /* AuthenticationRepository.swift */,
+				3A2EB33F29F361E8009A1D29 /* AuthenticationViewModel.swift */,
+			);
+			path = Cuspide;
+			sourceTree = "<group>";
+		};
+		3A2EB30929F34FA2009A1D29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A2EB30A29F34FA2009A1D29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A2EB31329F34FA2009A1D29 /* CuspideTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A2EB31429F34FA2009A1D29 /* CuspideTests.swift */,
+			);
+			path = CuspideTests;
+			sourceTree = "<group>";
+		};
+		3A2EB31D29F34FA2009A1D29 /* CuspideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A2EB31E29F34FA2009A1D29 /* CuspideUITests.swift */,
+				3A2EB32029F34FA2009A1D29 /* CuspideUITestsLaunchTests.swift */,
+			);
+			path = CuspideUITests;
+			sourceTree = "<group>";
+		};
+		3A2EB33A29F35F2D009A1D29 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				3A2EB30529F34FA1009A1D29 /* AuthenticationView.swift */,
+				3A2EB32F29F3591B009A1D29 /* RegisterEmailView.swift */,
+				3A2EB34129F36E8F009A1D29 /* LoginEmailView.swift */,
+				3A2EB34329F37033009A1D29 /* SwiftUIView.swift */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2EB2FF29F34FA1009A1D29 /* Cuspide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2EB32429F34FA2009A1D29 /* Build configuration list for PBXNativeTarget "Cuspide" */;
+			buildPhases = (
+				3A2EB2FC29F34FA1009A1D29 /* Sources */,
+				3A2EB2FD29F34FA1009A1D29 /* Frameworks */,
+				3A2EB2FE29F34FA1009A1D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cuspide;
+			packageProductDependencies = (
+				3A2EB33829F35D83009A1D29 /* FirebaseAuth */,
+			);
+			productName = Cuspide;
+			productReference = 3A2EB30029F34FA1009A1D29 /* Cuspide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A2EB30F29F34FA2009A1D29 /* CuspideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2EB32729F34FA2009A1D29 /* Build configuration list for PBXNativeTarget "CuspideTests" */;
+			buildPhases = (
+				3A2EB30C29F34FA2009A1D29 /* Sources */,
+				3A2EB30D29F34FA2009A1D29 /* Frameworks */,
+				3A2EB30E29F34FA2009A1D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2EB31229F34FA2009A1D29 /* PBXTargetDependency */,
+			);
+			name = CuspideTests;
+			productName = CuspideTests;
+			productReference = 3A2EB31029F34FA2009A1D29 /* CuspideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A2EB31929F34FA2009A1D29 /* CuspideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2EB32A29F34FA2009A1D29 /* Build configuration list for PBXNativeTarget "CuspideUITests" */;
+			buildPhases = (
+				3A2EB31629F34FA2009A1D29 /* Sources */,
+				3A2EB31729F34FA2009A1D29 /* Frameworks */,
+				3A2EB31829F34FA2009A1D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2EB31C29F34FA2009A1D29 /* PBXTargetDependency */,
+			);
+			name = CuspideUITests;
+			productName = CuspideUITests;
+			productReference = 3A2EB31A29F34FA2009A1D29 /* CuspideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2EB2F829F34FA1009A1D29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3A2EB2FF29F34FA1009A1D29 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3A2EB30F29F34FA2009A1D29 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3A2EB2FF29F34FA1009A1D29;
+					};
+					3A2EB31929F34FA2009A1D29 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3A2EB2FF29F34FA1009A1D29;
+					};
+				};
+			};
+			buildConfigurationList = 3A2EB2FB29F34FA1009A1D29 /* Build configuration list for PBXProject "Cuspide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2EB2F729F34FA1009A1D29;
+			packageReferences = (
+				3A2EB33729F35D83009A1D29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3A2EB30129F34FA1009A1D29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2EB2FF29F34FA1009A1D29 /* Cuspide */,
+				3A2EB30F29F34FA2009A1D29 /* CuspideTests */,
+				3A2EB31929F34FA2009A1D29 /* CuspideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2EB2FE29F34FA1009A1D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2EB30B29F34FA2009A1D29 /* Preview Assets.xcassets in Resources */,
+				3A2EB30829F34FA2009A1D29 /* Assets.xcassets in Resources */,
+				3A2EB33629F35D2B009A1D29 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2EB30E29F34FA2009A1D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2EB31829F34FA2009A1D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2EB2FC29F34FA1009A1D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2EB30629F34FA1009A1D29 /* AuthenticationView.swift in Sources */,
+				3A2EB33C29F35F98009A1D29 /* AuthenticationFirebaseDatasource.swift in Sources */,
+				3A2EB34429F37033009A1D29 /* SwiftUIView.swift in Sources */,
+				3A19AC0A29F744D600EDBEDA /* HomeView.swift in Sources */,
+				3A2EB33229F3598B009A1D29 /* DismissView.swift in Sources */,
+				3A2EB34229F36E8F009A1D29 /* LoginEmailView.swift in Sources */,
+				3A2EB34029F361E8009A1D29 /* AuthenticationViewModel.swift in Sources */,
+				3A2EB33029F3591B009A1D29 /* RegisterEmailView.swift in Sources */,
+				3A2EB30429F34FA1009A1D29 /* CuspideApp.swift in Sources */,
+				3A2EB33E29F36117009A1D29 /* AuthenticationRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2EB30C29F34FA2009A1D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2EB31529F34FA2009A1D29 /* CuspideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2EB31629F34FA2009A1D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2EB32129F34FA2009A1D29 /* CuspideUITestsLaunchTests.swift in Sources */,
+				3A2EB31F29F34FA2009A1D29 /* CuspideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2EB31229F34FA2009A1D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2EB2FF29F34FA1009A1D29 /* Cuspide */;
+			targetProxy = 3A2EB31129F34FA2009A1D29 /* PBXContainerItemProxy */;
+		};
+		3A2EB31C29F34FA2009A1D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2EB2FF29F34FA1009A1D29 /* Cuspide */;
+			targetProxy = 3A2EB31B29F34FA2009A1D29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A2EB32229F34FA2009A1D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A2EB32329F34FA2009A1D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2EB32529F34FA2009A1D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cuspide/Preview Content\"";
+				DEVELOPMENT_TEAM = 74YDRPSB57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo01andres.Cuspide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A2EB32629F34FA2009A1D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cuspide/Preview Content\"";
+				DEVELOPMENT_TEAM = 74YDRPSB57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo01andres.Cuspide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A2EB32829F34FA2009A1D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YDRPSB57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo01andres.CuspideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuspide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cuspide";
+			};
+			name = Debug;
+		};
+		3A2EB32929F34FA2009A1D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YDRPSB57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo01andres.CuspideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuspide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cuspide";
+			};
+			name = Release;
+		};
+		3A2EB32B29F34FA2009A1D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YDRPSB57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo01andres.CuspideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cuspide;
+			};
+			name = Debug;
+		};
+		3A2EB32C29F34FA2009A1D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YDRPSB57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo01andres.CuspideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cuspide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2EB2FB29F34FA1009A1D29 /* Build configuration list for PBXProject "Cuspide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2EB32229F34FA2009A1D29 /* Debug */,
+				3A2EB32329F34FA2009A1D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2EB32429F34FA2009A1D29 /* Build configuration list for PBXNativeTarget "Cuspide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2EB32529F34FA2009A1D29 /* Debug */,
+				3A2EB32629F34FA2009A1D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2EB32729F34FA2009A1D29 /* Build configuration list for PBXNativeTarget "CuspideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2EB32829F34FA2009A1D29 /* Debug */,
+				3A2EB32929F34FA2009A1D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2EB32A29F34FA2009A1D29 /* Build configuration list for PBXNativeTarget "CuspideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2EB32B29F34FA2009A1D29 /* Debug */,
+				3A2EB32C29F34FA2009A1D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A2EB33729F35D83009A1D29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A2EB33829F35D83009A1D29 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A2EB33729F35D83009A1D29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3A2EB2F829F34FA1009A1D29 /* Project object */;
+}
